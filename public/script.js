@@ -1,5 +1,3 @@
-// FUNCIONES
-
 const form = document.getElementById("login-form");
 const responseEl = document.getElementById("response");
 
