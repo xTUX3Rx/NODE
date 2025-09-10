@@ -1,4 +1,4 @@
-// functions/login.js
+// LOGIN
 
 exports.handler = async function (event, context) {
   if (event.httpMethod !== "POST") {
@@ -10,7 +10,7 @@ exports.handler = async function (event, context) {
 
   const { username, password } = JSON.parse(event.body);
 
-  // Simulación de usuario
+  // USUARIO PRUEBA
   const fakeUser = {
     username: "admin",
     password: "1234"
